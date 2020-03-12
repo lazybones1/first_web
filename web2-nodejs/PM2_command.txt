@@ -1,0 +1,8 @@
+구동 : pm2 start app.js
+종료 : pm2 stop 이름
+실시간 감시 : pm2 start app.js --watch
+실행 프로세스 목록보기 : pm2 list
+변경 보기 : pm2 log
+
+pm2 monit
+종료 : q
