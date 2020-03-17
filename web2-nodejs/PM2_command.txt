@@ -1,8 +1,11 @@
 구동 : pm2 start app.js
 종료 : pm2 stop 이름
 실시간 감시 : pm2 start app.js --watch
+백그라운드가 아닌 상태로 실행 : pm2 start app.js --watch --no-daemon
+특정 dir에대한 watch를 하지 않도록 실행 : pm2 start app.js --watch --ignore-watch="data" --no-daemon
 실행 프로세스 목록보기 : pm2 list
 변경 보기 : pm2 log
+pm2로 실행된것 끄기 : pm2 kill
 
 pm2 monit
 종료 : q
